@@ -1,0 +1,54 @@
+.outer-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inner-container {
+    margin: 100px auto;
+    width: 800px;
+    border: 1px solid black;
+}
+
+.header > h1 {
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.header {
+    width: 800px;
+    background-color: black;
+    color: gainsboro;
+}
+
+.address {
+    float: left;
+    padding-left: 20px;
+}
+
+.work > h2 {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.work > p {
+    width: 400px;
+    clear: right;
+    padding-left: 319px;
+    text-align: center;
+}
+
+.education {
+    clear: right;
+    padding-left: 20px;
+}
+
+.footer {
+    width: 800px;
+    background-color: black;
+    clear: both;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    color: gainsboro;
+}

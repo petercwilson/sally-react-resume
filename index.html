@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sally Student | About Me</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div id="application-root"></div>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+    <script type="text/babel">
+       function App() {
+           return (
+            <div className="outer-container">
+                <div className="inner-container">
+                    <header className="header">
+                        <h1>Sally Student Resume</h1>
+                    </header>
+                    <address className="address">
+                        <h2>Sally Student</h2>
+                        <p><img src="https://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg" /></p>
+                        <p><a href="mailto:sally@student.com">sally@student.com</a></p>
+                        <p>1234 Hollywood Blvd<br />Los Angeles, California</p>
+                        <p>818.879.9789</p>
+                    </address>
+                    <main className="work">
+                        <h2> -- My Work Experience -- </h2>
+
+                        <p>Baskin Robbins - Ice Cream Scooper <br /> from 05/21/97 - 07/12/97</p>
+                        <p>Description: What a lame job! I literally scooped Ice Cream
+                        for snotty little kids and then they literally dropped
+                        the cones on the floor and screamed like babies. Moved on!
+                        </p>
+                        <br />
+                        <p>Sel-Employed - Hacker from 08/01/97 - Present</p>
+                        <p>Description: This is what I do best. I hack into the computers of shady
+                        men and women and expose them for who they really are. It's really
+                        the perfect job for me!    
+                        </p>
+                    </main>
+                    <br />
+                    <section className="education">
+                        <h2> -- Education -- </h2>
+                        <p>I didn't graduate High School; I went to the school of hard knocks!
+                        <br />Self-taught baby!    
+                        </p>
+                    </section>
+                    <footer className="footer">
+                        <p>Copyright &copy; 2019 Sally Student</p>
+                    </footer>
+                </div>
+            </div>
+           );
+       }
+
+       ReactDOM.render(
+        <App />,
+        document.querySelector('#application-root')
+    );
+    </script>
+</body>
+</html>
